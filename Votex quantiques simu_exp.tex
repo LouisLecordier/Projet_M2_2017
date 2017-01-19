@@ -1,0 +1,76 @@
+\documentclass[a4paper]{article}
+
+%%%%%%%%%%%%% PACKAGES UTILES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{pstricks,pstricks-add,pst-math,pst-xkey}
+\usepackage{multicol}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{De la simulation quantique à l'expérimentation : \\ les vortex quantiques}
+\author{William Dubosclard, Louis Lecordier}
+
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+Numerical simulations usually used to study classical physics or quantum physics with many approximations don't really suite to treat these problems exactly.
+Within this project we are going to take an active interest to quantum simulation with cold atoms to foresee and understand this world apart and build theories using analogy.To underline the interest of quantum simulation with cold atoms, we will study the case of the apparition of vortex in superconductor materials and compare it to simulation.
+\end{abstract}
+
+\tableofcontents
+
+\newpage
+
+\begin{multicols}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction : Différents types de simulation quantique} 
+\subsection*{Pourquoi la simulation quantique ?}
+
+If you consider a numerical simulation with a computer, for a system 'as simple' as an unic atom with few electrons in an electro-magneticc field ; due to the discrete space you have to create, the computer will have to deal with $N^{3M}$ values of space with $N$ the number of points for one direction and $3M$ the number of electrons gravitating in a 3D model. These calculations are simply impossible for any computer today : For example, if one consider a $20 \times 20 \times 20$ cube of space containing a atom with only 4 electrons, it would take $20^{3 \times 4} \approx 4.10^{15}$ points that is to say $\approx 64$ petaoctets of data to stock !  It is obviously impossible to deal with with today's computers even in terms of time of calculation, it would take an infinite time to get results without any approximation like in the MCTDHF method or else... %%COURS R.TAIEB%%
+R.Feynman, in a lecture about these issues, proposed that to overcome these problems, ‘quantum simulators’ that operate according to the laws of quantum mechanics should be used. If we had a system at our disposal, also composed of spin-½ particles, that we could manipulate at will, then we would be able to engineer the interaction between those particles according to the one we want to simulate, and thus predict the value of physical quantities by simply performing the appropriate measurements on our system. %%GOALS AND OPPORTUNITIES FEYNMAN%%
+
+\subsection*{Vortex quantique et supraconductivité}
+As an introduction, an abstract from a seminar given by Mithun coulb be good. Quantized vortices have long been studied in superconductors, liquid helium, BEC. observation of quantized vortices in BECs proves unambiguously the superfluidity of BECs. A rotating BEC mimics superconductor in applied magnetic field. A vortex in a BEC is a density zero region with localized phase singularity, superconductor it is the region of flux penetration. The quantization of the angular momentum demands the need of critical rotational frequency for a single vortex generation.
+
+
+\section{Étude de cas vortex dans les Matériaux supraconducteurs}
+
+Def : Type II superconductors -
+Is characterized by the formation of magnetic vortices in an applied magnetic field. This occurs above a certain critical field strength $H_C1$. The vortex density increase with increasing field strength. It explains by the Meissner effect which is the expulsion of a magnetic field from a superconductor during its transition to the superconducting state.
+
+VORTEX QUANTIZATION IN A SUPERCONDUCTOR /
+The quantization in a superconductor call the Meissner effect. If the magnetic field becomes sufficiently strong, it may be energetically favorable for the superconductor to form a lattice of a quantum vortices. This lattice can be create in a Quantum Simulation with ultracold atoms. This phenomenon could be interesting to talk in our report. 
+In the thesis of Ross Alexander Williams, the group observ vortex nucleation in a rotating two dimensional lattice of Bose Enstein condensates. Their experiment started with a $^{87}Rb$ condensate containing $2.10^{5}$ atoms. The atomic trap is a standard Ioffe-Pritchard configuration with a single red detuned light sheet in the radial plane increasing the axial trapping frequency. 
+The experiment shows that the number of vortices observed as a function of the optical lattice rotation frequence. 
+
+
+\section{Comparaison avec la simulation quantique au moyen d'un gaz ultra froid}
+
+VORTEX QUANTIZATION IN A SUPERFLUID
+We can calculate the circulation of the vortex by the equation :
+$\int_c \vec{v}.d\vec{l} = \frac{2\pi\hbar}{m}n$
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\linewidth]{vortex_supra_reseau.jpeg}
+ \caption{\label{fig:vortex}my caption of the figure}
+\end{figure}
+
+
+
+\end{multicols}
+\end{document}
