@@ -60,17 +60,77 @@ The experiment shows that the number of vortices observed as a function of the o
 
 \section{Comparaison avec la simulation quantique au moyen d'un gaz ultra froid}
 
-VORTEX QUANTIZATION IN A SUPERFLUID
-We can calculate the circulation of the vortex by the equation :
-$\int_c \vec{v}.d\vec{l} = \frac{2\pi\hbar}{m}n$
+\textit{Observation of Vortex Lattices in Bose Einstein Condensates
+}
+
+Quantized vortices play a key role in superfluidity and superconductivity. Somes BEC groups observed the formation of highly ordered vortex lattices with a rotating Bose-condensed gas.
+These observations may be a model system for study of Vortex matter.
+
+We know that the vortex nucleation in a superconductor type II come from magnetic field which can penetrate the matter. This phenomena are direct consequences of the existence of a macroscopique wave function.
+
+Vortices in BEC’s have been the subject of extensive theoritical study (Art : Vortices in a trapped dilute Bose-Einstein condensate, Alexander L. Fetter and Anatoly A. Svidzinsky). 
+To study vortex in a Bose gas, we have to understand previously the hydrodynamic description of the condensate.
+
+First, we represent the condensate by his wave function $\psi$ which describe a quantum-hydrodynamic function :
+
+\[\psi(\vec{r}, t) = \psi(\vec{r}, t).\exp(i S(\vec{r}, t))\]
+
+By using a classical hydrodynamic equation, we arrive at the analog of the Bernoulli equation for the condensate fluid with the equation :
+
+\[\frac{1}{2}Mv^2 + V_{tr} + \frac{1}{\sqrt{n}}T\sqrt{n} + gn + M\frac{\partial\phi}{\partial t} = 0\]
+
+We have to be careful about the gas. We are in present of a lower temperature gas. This assumption of a zero-temperature condensate implies an entropy which is negligible.
+Assuming the lower entropy, we can rewrite the equation as :
+
+\[\frac{1}{2}Mv^2 + U + \frac{e+p}{n} + M\frac{\partial \phi}{\partial t} = 0\]
+
+Where U is the potential energy, e the energy density and e+p is the enthalpy density.
+The dynamics of vortex lines at zero temperature follows from the Kelvin circulation theorem, namely that each element of the vortex core moves with the local translational velocity induced by all the sources in the fluid. It explains the vortex nucleation when the Bose-condensate rotating !
+
+Experimentally, vortex lattices were produced by rotating the condensate around its long axis with the optical dipole force. The laser beam wavelength depend of the atom from the condensate. 
+
+\textit{(Art : Observation of Vortex Lattices in Bose Einstein Condensates)}
+We can observe in the figure \ref{fig1:v_BEC} a highly ordered triangular lattices of variable vortex density containing up to 130 vortices. Such Abrikosov lattices were first predicted for quantized magnetic flux lines in Type II superconductors (cf figure \ref{fig2:v_supra}). 
+When a quantum fluid is rotated at a frequency $\Omega$, it attempts to distribute the vorticity as uniformly as possible. This is similar to a rigid body, for which the vorticity is constant.
+
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=\linewidth]{vortex_supra_reseau.jpeg}
- \caption{\label{fig:vortex}my caption of the figure}
+ \includegraphics[width=\linewidth]{vortex_BEC.png}
+ \caption{\label{fig1:v_BEC}Réseau de vortex dans un condensat de Bose-Einstein}
 \end{figure}
 
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\linewidth]{vortex_supra.png}
+ \caption{\label{fig2:v_supra}Réseau de vortex dans un supraconducteur}
+\end{figure}
+
+
+Far from the resonance, the number of vortices produced increased with the stirring time. (Art : Vortex Formation in a Stirred Bose-Einstein Condensate K. W. Madison, F. Chevy, W. Wohlleben,* and J. Dalibard) The density of the condensate at the center of the vortex is zero, and the radius of the vortex core is of the order of the healing length $\xi = (8\pi a\rho)^{\frac{1}{2}}$.
+ a is the scattering length characterizing the 2 body interaction and $\rho$ the density of the condensate. In this paper, they mentioned the lifetime of a vortex.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\linewidth]{graph_BEC.png}
+ \caption{\label{fig3:graph_BEC}Probabilité de survie des vortex en fontion du temps}
+\end{figure}
+
+Fraction of images \ref{fig3:graph_BEC} showing a vortex as a function of the time spent by the gas in the axisymmetric trap after the end of the stirring phase for two condensate conditions.
+
+ The vortex lattice had lifetimes of several seconds. Moreover, the lifetime of vortices markedly decreased with the number of condensed atoms. Theoretical calculation isn’t approach in this report but it presents in the article (Art : Dissipative dynamics of vortex arrays in trapped Bose-Condensed gases : neutron stars physics on $\mu K$ scale P.O. Fedichev and A.E. Muryshev)
+
+Properties of vortex lattices are of broad interest in superfluids, superconductors, and even astrophysics. Fluctuations in the rotation rate of pulsars are attributed to the dynamics of the vortex lattice in a superfluid neutron liquid. Vortex formation and self-assembly into a regular lattice is a robust feature of rotating BECs. Gaseous condensates may serve as a model system to study the dynamics of vortex matter, in analogy to work in type II superconductors.
+
+
+
+%\begin{figure}[H]
+% \centering
+% \includegraphics[width=\linewidth]{vortex_supra_reseau.jpeg}
+% \caption{\label{fig:vortex}my caption of the figure}
+%\end{figure}
 
 \end{multicols}
 \end{document}
