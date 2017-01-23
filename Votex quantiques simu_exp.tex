@@ -27,6 +27,8 @@
 \begin{abstract}
 Numerical simulations usually used to study classical physics or quantum physics with many approximations don't really suite to treat these problems exactly.
 Within this project we are going to take an active interest to quantum simulation with cold atoms to foresee and understand this world apart and build theories using analogy.To underline the interest of quantum simulation with cold atoms, we will study the case of the apparition of vortex in superconductor materials and compare it to simulation.
+
+Quantized vortices have long been studied in superconductors, liquid helium, Bose-Einstein condensates. The oberservation of quantized vortices in BEC proves unambigiuously the superfluidity of BECs. In this report, we are interested in a rotating BEC which can mimic a type II superconductor. At the beginning, we discuss about vortex in superconductor and then, we demonstrate the similarities between superconductors' vortices and BECs' vortices. 
 \end{abstract}
 
 \tableofcontents
@@ -44,7 +46,7 @@ If you consider a numerical simulation with a computer, for a system 'as simple'
 R.Feynman, in a lecture about these issues, proposed that to overcome these problems, ‘quantum simulators’ that operate according to the laws of quantum mechanics should be used. If we had a system at our disposal, also composed of spin-½ particles, that we could manipulate at will, then we would be able to engineer the interaction between those particles according to the one we want to simulate, and thus predict the value of physical quantities by simply performing the appropriate measurements on our system. %%GOALS AND OPPORTUNITIES FEYNMAN%%
 
 \subsection*{Vortex quantique et supraconductivité}
-As an introduction, an abstract from a seminar given by Mithun coulb be good. Quantized vortices have long been studied in superconductors, liquid helium, BEC. observation of quantized vortices in BECs proves unambiguously the superfluidity of BECs. A rotating BEC mimics superconductor in applied magnetic field. A vortex in a BEC is a density zero region with localized phase singularity, superconductor it is the region of flux penetration. The quantization of the angular momentum demands the need of critical rotational frequency for a single vortex generation.
+Quantized vortices have long been studied in superconductors, liquid helium, BEC. observation of quantized vortices in BECs proves unambiguously the superfluidity of BECs. A rotating BEC mimics superconductor in applied magnetic field. A vortex in a BEC is a density zero region with localized phase singularity, superconductor it is the region of flux penetration. The quantization of the angular momentum demands the need of critical rotational frequency for a single vortex generation.
 
 
 \section{Étude de cas vortex dans les Matériaux supraconducteurs}
@@ -60,16 +62,14 @@ The experiment shows that the number of vortices observed as a function of the o
 
 \section{Comparaison avec la simulation quantique au moyen d'un gaz ultra froid}
 
-\textit{Observation of Vortex Lattices in Bose Einstein Condensates
-}
+Quantized vortices play a key role in superfluidity and superconductivity. Somes BEC groups observed the formation of highly ordered vortex lattices with a rotating Bose-condensed gas. It is the case of the groupe \textit{Observation of Vortex Lattices in Bose Einstein Condensates} which is the base paper of our work about BECs' vortices.
 
-Quantized vortices play a key role in superfluidity and superconductivity. Somes BEC groups observed the formation of highly ordered vortex lattices with a rotating Bose-condensed gas.
-These observations may be a model system for study of Vortex matter.
+A lot of experiment tend to prove that quantum simulation on rotating BEC permit the comprehension about superconductors' vortex. These observations may be a model system for study of Vortex matter. 
 
 We know that the vortex nucleation in a superconductor type II come from magnetic field which can penetrate the matter. This phenomena are direct consequences of the existence of a macroscopique wave function.
 
 Vortices in BEC’s have been the subject of extensive theoritical study (Art : Vortices in a trapped dilute Bose-Einstein condensate, Alexander L. Fetter and Anatoly A. Svidzinsky). 
-To study vortex in a Bose gas, we have to understand previously the hydrodynamic description of the condensate.
+To study vortex in a Bose gas, we have to understand previously the hydrodynamic description of the condensate itself.
 
 First, we represent the condensate by his wave function $\psi$ which describe a quantum-hydrodynamic function :
 
@@ -85,7 +85,9 @@ Assuming the lower entropy, we can rewrite the equation as :
 \[\frac{1}{2}Mv^2 + U + \frac{e+p}{n} + M\frac{\partial \phi}{\partial t} = 0\]
 
 Where U is the potential energy, e the energy density and e+p is the enthalpy density.
-The dynamics of vortex lines at zero temperature follows from the Kelvin circulation theorem, namely that each element of the vortex core moves with the local translational velocity induced by all the sources in the fluid. It explains the vortex nucleation when the Bose-condensate rotating !
+The dynamics of vortex lines at zero temperature follows from the Kelvin circulation theorem, namely that each element of the vortex core moves with the local translational velocity induced by all the sources in the fluid. It might be explain the vortex nucleation when the Bose-condensate rotating !
+
+\subsection*{Experimental creation of a single vortex}
 
 Experimentally, vortex lattices were produced by rotating the condensate around its long axis with the optical dipole force. The laser beam wavelength depend of the atom from the condensate. 
 
@@ -120,7 +122,9 @@ Far from the resonance, the number of vortices produced increased with the stirr
 
 Fraction of images \ref{fig3:graph_BEC} showing a vortex as a function of the time spent by the gas in the axisymmetric trap after the end of the stirring phase for two condensate conditions.
 
- The vortex lattice had lifetimes of several seconds. Moreover, the lifetime of vortices markedly decreased with the number of condensed atoms. Theoretical calculation isn’t approach in this report but it presents in the article (Art : Dissipative dynamics of vortex arrays in trapped Bose-Condensed gases : neutron stars physics on $\mu K$ scale P.O. Fedichev and A.E. Muryshev)
+ The vortex lattice had lifetimes of several seconds. Moreover, the lifetime of vortices markedly decreased with the number of condensed atoms. Theoretical calculation isn’t approach in this report but it presents in the article (Art : Dissipative dynamics of vortex arrays in trapped Bose-Condensed gases : neutron stars physics on $\mu K$ scale P.O. Fedichev and A.E. Muryshev).
+%%% On peut peut être donner le nom des effets qui engendrent le temps de vie en comparaisaison avec les supras.
+%%% en fonction de ce que tu as trouvé sur les temps de vie si il y en a
 
 Properties of vortex lattices are of broad interest in superfluids, superconductors, and even astrophysics. Fluctuations in the rotation rate of pulsars are attributed to the dynamics of the vortex lattice in a superfluid neutron liquid. Vortex formation and self-assembly into a regular lattice is a robust feature of rotating BECs. Gaseous condensates may serve as a model system to study the dynamics of vortex matter, in analogy to work in type II superconductors.
 
